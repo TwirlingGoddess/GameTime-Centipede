@@ -10,7 +10,7 @@ h1 {
 }
 
 main {
-	height: 70vh;
+	height: 100vh;
 	display: flex;
 	justify-content: space-around;
 	z-index: 1;
