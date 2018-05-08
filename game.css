@@ -1,6 +1,35 @@
 #game {
   border: 1px solid hotpink;
-  margin: auto;
   display: block;
   background-color: #000;
 }
+
+h1 {
+	text-align: center;
+	margin: 0.5rem;
+}
+
+main {
+	height: 70vh;
+	display: flex;
+	justify-content: space-around;
+	z-index: 1;
+}
+
+aside {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 20rem;
+	width: 20vw;
+	text-align: center;
+	padding: 1rem 0;
+}
+
+h3 {
+	line-height: 2rem;
+}
+
+
+
