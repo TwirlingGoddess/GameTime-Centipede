@@ -4,9 +4,6 @@ const segments = require('../lib/Segments.js');
 require('locus');
 
 describe ('Segments', function() {
-  it('should return true', function() {
-    assert.equal(true, true);
-  })
 
   it('should have x and y default values', function() {
     const segments = new Segments;
