@@ -1,6 +1,6 @@
 const chai = require ('chai');
 const assert = chai.assert;
-const Block = require('../lib/Block.js');
+const block = require('../lib/Block.js');
 require('locus');
 
 describe ('Block', function() {
@@ -20,22 +20,10 @@ describe ('Block', function() {
 		assert.equal(block.width, 13);
 	})
 
-	it('should have default x and y velocities', function() {
+	it('should have default x and y velocities as arguments', function() {
 		const block = new Block();
 		assert.equal(block.dx, 14);
 		assert.equal(block.dy, 4);
-	})
-
-	// it('should be able to draw itself again', function() {
-	// 	window.innerwidth = 400;
-	// 	const block = new Block();
-	// 	assert.equal(block.draw(canvas.x), window.innerwidth/2)
-	// })
-	
+	})	
 
 })
-//Setup
-
-//Execution
-
-//Assertion
