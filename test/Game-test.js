@@ -20,7 +20,7 @@ describe ('Game', function() {
 	// })
 
 	it('should have default values', function() {
-		const game = new Game;
+		const game = new Game();
 		assert.equal(game.centipede, true);
 		assert.equal(game.player, true);
 		assert.equal(game.segments, true);
@@ -29,12 +29,12 @@ describe ('Game', function() {
 	})
 
 	it('should keep score', function() {
-		const game = new Game;
+		const game = new Game();
 		assert.equal(game.score, 0);
 	})
 
 	it('should have lives', function() {
-		const game = new Game;
+		const game = new Game();
 		assert.equal(game.lives, 3);
 	})
 

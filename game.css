@@ -18,7 +18,7 @@ h1 {
 }
 
 main {
-	height: 100vh;
+	height: 80vh;
 	display: flex;
 	justify-content: space-around;
 	z-index: 1;
