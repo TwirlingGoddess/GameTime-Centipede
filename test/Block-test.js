@@ -11,12 +11,10 @@ describe ('Block', function() {
 		assert.equal(block.y, 15);
 	})
 
-	it('should have default height, width, dx and dy values', function() {
+	it('should have default height and width values', function() {
 		const block = new Block();
 		assert.equal(block.height, 13);
 		assert.equal(block.width, 13);
-		assert.equal(block.dx, 14);
-		assert.equal(block.dy, 4);
 	})	
 
 })
