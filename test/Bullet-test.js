@@ -1,25 +1,24 @@
-const chai = require('chai');
-const assert = chai.assert;
-const bullet = require('../lib/Bullet.js');
-require('locus');
+import {assert} from 'chai';
+import Bullet from '../lib/Bullet.js';
 
 describe('Bullet', function() {
-  it('should take default x and y values', function () {
-    assert.equal(bullet.x, 15);
-    assert.equal(bullet.y, 15);
+  it('should take x and y arguments', function () {
+    const bullet = new Bullet(1, 2);
+    assert.equal(bullet.x, 1);
+    assert.equal(bullet.y, 2);
   })
   
   it('should have default height, width, dx, and dy values', function() {
     const bullet = new Bullet();
     assert.equal(bullet.height, 8);
     assert.equal(bullet.width, 8);
-    assert.equal(bullet.dx, 7);
+    assert.equal(bullet.dx, 9);
     assert.equal(bullet.dy, 3);
   });
 
   it('should have a clip of bullets', function() {
     const bullet = new Bullet();
-    assert.equal(bullet.bulletClipArray, [])
+    assert.deepEqual(bullet.bulletClipArray, [])
   })
 
   it('should be able to move up when fired', function() {
