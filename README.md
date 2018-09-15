@@ -1,4 +1,4 @@
-# Game Time Starter Kit (FE - Module 2)
+# Game Time 
 
 Game Time featuring CENTIPEDE
 
