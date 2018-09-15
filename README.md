@@ -19,8 +19,8 @@ allow the user to start a new game.
 
 ## Initial Setup
 1. Clone this repository
-  ```shell
-  git clone git@github.com:turingschool-examples/game-time-starter-kit-FEm1.git game-time
+  ```shellgit@github.com
+  git clone git@github.com:TwirlingGoddess/GameTime-Centipede.git
   ```
 2. Install the dependencies of the starter kit
   ```shell
